@@ -154,9 +154,14 @@
   .provider-list li{
     list-style:none;
     font-size:17.5px;
-    padding: 10px 0;
+    padding: 10px 0 10px 1.1em;
+    position:relative;
   }
-  .provider-list li::before{ content:"・"; }
+  .provider-list li::before{
+    content:"・";
+    position:absolute;
+    left:0;
+  }
 
   /* ---------- Flow ---------- */
   .flow-title{ text-align:center; font-size:24px; font-weight:900; margin-bottom: 44px; }
@@ -355,9 +360,9 @@
   <div class="wrap">
     <h2>製作者（たけしお）について</h2>
     <ul class="provider-list">
-      <li>AWAKENING PROGRAM事務局にて、講座運営およびIT・システムサポートを担当。</li>
-      <li>多次元統合療法では、Webサイト運営、オンライン配信、講義資料の投影・配信環境の構築など、テクニカルオペレーション全般を担当。</li>
-      <li>Webアプリケーションの開発経験を持ち、診断アプリや日記アプリなどの企画・開発を経験。ユーザー目線を大切にしたシンプルで使いやすいシステムづくりを得意としています。</li>
+      <li>AWAKENING PROGRAM事務局にて、講座運営およびIT・システムサポートを担当</li>
+      <li>多次元統合療法では、Webサイト運営、オンライン配信、講義資料の投影・配信環境の構築など、テクニカルオペレーション全般を担当</li>
+      <li>Webアプリケーションの開発経験を持ち、診断アプリや日記アプリなどの企画・開発を経験<br>ユーザー目線を大切にしたシンプルで使いやすいシステムづくりを得意としています</li>
     </ul>
   </div>
 </section>
