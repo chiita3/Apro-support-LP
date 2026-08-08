@@ -57,6 +57,8 @@
     color: #4A5D63;
     text-shadow: 0 0 14px rgba(255,255,255,.9), 0 0 5px rgba(255,255,255,.9);
   }
+  .mobile-only{ display:none; }
+  .pc-gap{ display:inline-block; width:0.8em; }
 
   /* ---------- Section shells ---------- */
   section{ padding: 80px 0; }
@@ -197,8 +199,8 @@
 
 <section class="hero">
   <div class="wrap">
-    <h1>アカシックリーダーとしての一歩を踏み出すために<br>環境作りをサポートします</h1>
-    <p class="sub">専門知識がなくても大丈夫。まずはここから始められます</p>
+    <h1>アカシックリーダーとしての<br class="mobile-only">一歩を踏み出すために<br>環境作りをサポートします</h1>
+    <p class="sub">専門知識がなくても大丈夫<span class="pc-gap"></span><br class="mobile-only">まずはここから始められます</p>
   </div>
 </section>
 
@@ -371,6 +373,8 @@
     .flow-num{ font-size:26px; }
     .cta-btn{ padding: 12px 30px; font-size:14px; }
     .sample-link a{ padding: 12px 22px; font-size:14px; }
+    .mobile-only{ display:inline; }
+    .pc-gap{ display:none; }
   }
 </style>
 
